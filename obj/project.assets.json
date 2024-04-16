@@ -1,0 +1,128 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.0": {
+      "Assembly-CSharp/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Assembly-CSharp-firstpass": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Assembly-CSharp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Assembly-CSharp.dll": {}
+        }
+      },
+      "Assembly-CSharp-Editor-firstpass/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Assembly-CSharp-firstpass": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Assembly-CSharp-Editor-firstpass.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Assembly-CSharp-Editor-firstpass.dll": {}
+        }
+      },
+      "Assembly-CSharp-firstpass/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Assembly-CSharp-firstpass.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Assembly-CSharp-firstpass.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Assembly-CSharp/1.0.0": {
+      "type": "project",
+      "path": "Assembly-CSharp.csproj",
+      "msbuildProject": "Assembly-CSharp.csproj"
+    },
+    "Assembly-CSharp-Editor-firstpass/1.0.0": {
+      "type": "project",
+      "path": "Assembly-CSharp-Editor-firstpass.csproj",
+      "msbuildProject": "Assembly-CSharp-Editor-firstpass.csproj"
+    },
+    "Assembly-CSharp-firstpass/1.0.0": {
+      "type": "project",
+      "path": "Assembly-CSharp-firstpass.csproj",
+      "msbuildProject": "Assembly-CSharp-firstpass.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.0": [
+      "Assembly-CSharp >= 1.0.0",
+      "Assembly-CSharp-Editor-firstpass >= 1.0.0",
+      "Assembly-CSharp-firstpass >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "G:\\code\\UnityStudy\\Unity3D\\ZombieWars\\Assembly-CSharp-Editor.csproj",
+      "projectName": "Assembly-CSharp-Editor",
+      "projectPath": "G:\\code\\UnityStudy\\Unity3D\\ZombieWars\\Assembly-CSharp-Editor.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "G:\\code\\UnityStudy\\Unity3D\\ZombieWars\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "projectReferences": {
+            "G:\\code\\UnityStudy\\Unity3D\\ZombieWars\\Assembly-CSharp-Editor-firstpass.csproj": {
+              "projectPath": "G:\\code\\UnityStudy\\Unity3D\\ZombieWars\\Assembly-CSharp-Editor-firstpass.csproj"
+            },
+            "G:\\code\\UnityStudy\\Unity3D\\ZombieWars\\Assembly-CSharp-firstpass.csproj": {
+              "projectPath": "G:\\code\\UnityStudy\\Unity3D\\ZombieWars\\Assembly-CSharp-firstpass.csproj"
+            },
+            "G:\\code\\UnityStudy\\Unity3D\\ZombieWars\\Assembly-CSharp.csproj": {
+              "projectPath": "G:\\code\\UnityStudy\\Unity3D\\ZombieWars\\Assembly-CSharp.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.0": {
+        "targetAlias": "netstandard2.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
